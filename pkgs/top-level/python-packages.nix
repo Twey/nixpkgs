@@ -271,6 +271,10 @@ in {
 
   intelhex = callPackage ../development/python-modules/intelhex { };
 
+  jira = callPackage ../development/python-modules/jira { };
+
+  jira-cli = callPackage ../applications/version-management/jira-cli { };
+
   lmtpd = callPackage ../development/python-modules/lmtpd { };
 
   logster = callPackage ../development/python-modules/logster { };
@@ -6368,6 +6372,7 @@ in {
     };
   };
 
+  hiro = callPackage ../development/python-modules/hiro { };
 
   htmllaundry = buildPythonPackage rec {
     name = "htmllaundry-2.0";
@@ -6962,6 +6967,8 @@ in {
   };
 
   keyring = callPackage ../development/python-modules/keyring { };
+
+  keyrings-alt = callPackage ../development/python-modules/keyrings-alt { };
 
   keyutils = callPackage ../development/python-modules/keyutils { };
 
