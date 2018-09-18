@@ -8766,6 +8766,8 @@ in {
 
   ply = callPackage ../development/python-modules/ply { };
 
+  PlyPlus = callPackage ../development/python-modules/PlyPlus { };
+
   plyvel = buildPythonPackage (rec {
     name = "plyvel-0.9";
 
